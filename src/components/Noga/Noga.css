@@ -1,0 +1,14 @@
+.noga {
+  clear: both;
+  position: relative;
+  height: 80px;
+  margin-top: -200px;
+  background-color: lightgray;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.noga p {
+  margin: 0 auto;
+}
