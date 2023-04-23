@@ -30,7 +30,6 @@ const Reklamiraj = (props: reklamirajProps) => {
     const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         props.onReklamirajObutev(reklamacija)
-        alert(JSON.stringify(reklamacija))
         navigate("/seznam-reklamiranih")
         setReklamacija(initialState)
     }

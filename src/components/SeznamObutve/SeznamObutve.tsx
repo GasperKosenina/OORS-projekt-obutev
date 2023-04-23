@@ -29,6 +29,12 @@ const SeznamObutve = (props: seznamObutveProps) => {
                             </Link>
                         </Nav>
                         &nbsp;
+                        <Nav>
+                            <Link to="/seznam-reklamiranih" className="nav-link">
+                                Pregled reklamiranih čevljev
+                            </Link>
+                        </Nav>
+                        &nbsp;
                         <Nav><DropdownButton
                             id="dropdown-basic-button"
                             title={`Filtriraj ${selectedKategorija ? `(${selectedKategorija})` : ""}`}
